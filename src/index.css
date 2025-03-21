@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --rating-color: #f1c40f;
+}
+
+.active{
+    @apply bg-gray-100;
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background-color: white; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  }
